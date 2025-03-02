@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magical Things</title>
+    <link rel="stylesheet" href="styles.css">
+    <style> 
+	body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.container {
+    text-align: center;
+    background-color: #e0f2f1; /* light green background */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	height: 600px;
+	width: 500px;
+	margin-top: 300px;
+}
+
+.logo {
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 20px;
+	
+}
+
+.logo-text {
+    font-size: 48px;
+    color: #4caf50; /* green color */
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4caf50; /* green color */
+	padding-top: 200px;
+}
+
+p {
+    font-size: 16px;
+    color: #757575; /* grey color */
+    margin-bottom: 20px;
+}
+
+.get-started {
+    background-color: #4caf50; /* green color */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.get-started:hover {
+    background-color: #388e3c; /* darker green on hover */
+} </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <span class="logo-text">M</span>
+        </div>
+        <h1>Magical Things</h1>
+        <p>Let's make the word green again</p>
+        <button class="get-started">Get started</button>
+    </div>
+</body>
+</html>

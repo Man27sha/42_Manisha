@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            width: 300px;
+			
+        }
+        .logout-icon {
+            background-color: #e9f5e9; /* Light Green Background */
+            border-radius: 50%;
+            padding: 15px;
+            display: inline-block;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .button {
+            background-color: #4caf50; /* Green Background */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 10px 0;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        .button.cancel {
+            background-color: #ddd; /* Gray Background for Cancel */
+            color: #000;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logout-icon">
+            <span>🔄</span> <!-- Placeholder for icon -->
+        </div>
+        <h1>Logout</h1>
+        <p>Are you sure you want to logout?</p>
+        <button class="button">Yes, Logout</button>
+        <button class="button cancel">Cancel</button>
+        
+    </div>
+</body>
+</html>
